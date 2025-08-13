@@ -10,6 +10,6 @@ The model takes Spotify numeric audio features, track-level embeddings, and arti
 
 Originally, the plan was to integrate this with Spotify's recommendation endpoints so it could pull new recommended songs for a user, classify them, filter them by the selected languages, and continuously queue them for playback. Spotify has since deprecated the key endpoints that made this possible in real time, so that part of the project is on hold.
 
-As a workaround, I wrote another script (`mvp.py`) that can append either an artist's entire discography or specific albums to one large list, sort it by popularity scores, and push it to your Spotify queue. This still gives a way to find new music in a semi-automated way, even though it is not filtered by language.
+As a workaround, I wrote another script (`mvp.py`) that can append either an artist's (well I can choose to do so for one artists or many artists) entire discography or specific albums to one large list, sort it by popularity scores, and push it to your Spotify queue. This still gives a way to find new music in a semi-automated way, even though it is not filtered by language.
 
 To run `mvp.py` you need a Spotify Developer account. Create an app in the Spotify Developer Dashboard to get a client ID and client secret, set a redirect URI (such as `http://localhost:8080`), and export them along with your Spotify username as environment variables before running the script.
