@@ -1,4 +1,4 @@
-# Multilingual Spotify Recommender and MVP Queue Tool
+# Multilingual Spotify Song Language Classifier and MVP Queue Tool
 
 This project was an attempt to create a personalized listening experience for multilingual listeners. Spotify does not currently offer a way to filter recommendations by language. The goal was to take the songs Spotify recommends for a user and filter them down to only the languages they want to listen to, while still allowing multiple languages for a balanced listening experience.
 
